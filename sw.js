@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mordoku-west-v2';
+const CACHE_NAME = 'mordoku-west-v3';
 const ASSETS = [
     './',
     './index.html',
