@@ -1,0 +1,73 @@
+body {
+    background-color: #1a0f0a;
+    color: #2b1a0e;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.journal-container {
+    background: #e8d3b4;
+    border: 8px solid #5c3a21;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.journal-header {
+    border-bottom: 2px dashed #8c5832;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.badge {
+    background: #b8860b;
+    color: #fff;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+#narrative-box {
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.puzzle-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    border: 2px solid #5c3a21;
+    background: #f4ece1;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    background: #8b0000;
+    color: #f4ece1;
+    border: none;
+    padding: 12px 15px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a52a2a;
+}
