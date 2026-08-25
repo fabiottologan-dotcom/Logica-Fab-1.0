@@ -1,0 +1,16 @@
+{
+  "name": "Sheriff Mordoku West",
+  "short_name": "SceriffoWest",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a0f0a",
+  "theme_color": "#3d2314",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1041/1041880.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
